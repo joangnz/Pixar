@@ -41,6 +41,10 @@ body {
 }
 
 /* Class Utility */
+.wf {
+    width: 100%;
+}
+
 .flex {
     display: flex !important;
     justify-content: center;
@@ -58,6 +62,10 @@ body {
 
 .justify-around {
     justify-content: space-around !important;
+}
+
+.justify-evenly {
+    justify-content: space-evenly !important;
 }
 
 .align-top {
@@ -83,6 +91,15 @@ ul.no-bullet {
 
 .pointer {
     cursor: pointer;
+}
+
+/* Class Coloring */
+.gray {
+    background-color: #f6f6f4;
+}
+
+.dark-gray {
+    background-color: #333;
 }
 
 /* Text Styling */
