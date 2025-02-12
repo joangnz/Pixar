@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<header class="flex justify-between">
+    <div id="logo-holder">
+        <a href="home/">
+            <img [src]="SITE_URL + '/assets/logo.png'" alt="Pixar Logo" id="logo">
+        </a>
+    </div>
+
+    <div id="nav-holder">
+        <nav id="nav">
+            <ul class="no-bullet flex jusify-around">
+                <li>
+                    Films
+                    <ul class="no-bullet hide">
+                        <li><a [href]="SITE_URL + '/Feature Films'">Feature Films</a></li>
+                        <li><a [href]="SITE_URL + '/Short Films'">Short Films</a></li>
+                        <li><a [href]="SITE_URL + '/Series'">Series</a></li>
+                        <li><a [href]="SITE_URL + '/Sparkshorts'">Sparkshorts</a></li>
+                        <li><a [href]="SITE_URL + '/Documentaries'">Documentaries</a></li>
+                    </ul>
+                </li>
+                <li>
+                    Technology
+                    <ul class="no-bullet hide">
+                        <li><a [href]="SITE_URL + '/technology'">Technology at Pixar</a></li>
+                        <li><a [href]="SITE_URL + '/renderman'">Renderman</a></li>
+                        <li><a [href]="SITE_URL + '/openusd'">OpenUSD</a></li>
+                        <li><a [href]="SITE_URL + '/software'">Software R&D</a></li>
+                        <li><a [href]="SITE_URL + '/libraries'">Technology Libraries</a></li>
+                    </ul>
+                </li>
+                <li>
+                    Careers
+                    <ul class="no-bullet hide">
+                        <li><a [href]="SITE_URL + '/careers'">Careers</a></li>
+                        <li><a [href]="SITE_URL + '/internships'">Internships</a></li>
+                        <li><a [href]="SITE_URL + '/life-pixar'">Life at Pixar</a></li>
+                    </ul>
+                </li>
+                <li>
+                    More
+                    <ul class="no-bullet hide">
+                        <li><a [href]="SITE_URL + '/leaders'">Leaders</a></li>
+                        <li><a [href]="SITE_URL + '/story'">Our Story</a></li>
+                        <li><a [href]="SITE_URL + '/events'">Events</a></li>
+                        <li><a [href]="SITE_URL + '/pixar-box'">Pixar in a Box</a></li>
+                        <li><a [href]="SITE_URL + '/faqs'">Company FAQ's</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>

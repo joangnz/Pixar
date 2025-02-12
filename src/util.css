@@ -1,0 +1,114 @@
+/* Main Utility */
+:root {
+    --bg: #ffffff;
+    --primary: #000000;
+    --secondary: #40382e;
+    --contrast: #69ba5e;
+    --SITE_URL: 'http://localhost:4200';
+    font-size: 12px;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: var(--SITE_URL'/assets/fonts/proxima-nova/proximanova_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: var(--SITE_URL'/assets/fonts/proxima-nova/proximanova_bold.otf') format('opentype'),
+        var(--SITE_URL'/assets/fonts/proxima-nova/proximanova_black.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--bg);
+    font-size: 20px;
+    font-family: oxygen, trebuchet ms, Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Class Utility */
+.flex {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.justify-center {
+    justify-content: center !important;
+}
+
+.justify-between {
+    justify-content: space-between !important;
+}
+
+.justify-around {
+    justify-content: space-around !important;
+}
+
+.align-top {
+    align-items: flex-start !important;
+}
+
+.align-bottom {
+    align-items: flex-end !important;
+}
+
+.col {
+    flex-direction: column !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+ul.no-bullet {
+    padding: 0;
+    list-style-type: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/* Text Styling */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+li,
+a,
+label,
+button {
+    color: var(--primary);
+    font-family: 'Proxima Nova', sans-serif;
+    cursor: default;
+    text-decoration: none;
+}
+
+p,
+span,
+li,
+label,
+button {
+    font-size: 1rem;
+    line-height: 1.5;
+}
