@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { GLOBALS } from '../app.config';
 import { CommonModule } from '@angular/common';
+import $ from 'jquery';
 
 @Component({
   selector: 'app-header',
@@ -18,7 +19,11 @@ export class HeaderComponent {
     more: false,
   };
 
-  toggleMenu(menu: keyof typeof this.menus, show: boolean) {
-    this.menus[menu] = show;
+  activateMenu(menu: keyof typeof this.menus) {
+    this.menus[menu] = true;
+  }
+
+  deactivateMenu(menu: keyof typeof this.menus) {
+    this.menus[menu] = false;
   }
 }
