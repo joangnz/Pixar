@@ -9,4 +9,15 @@ import { GLOBALS } from '../app.config';
 })
 export class HeaderComponent {
   SITE_URL: string = GLOBALS.SITE_URL;
+
+  menus = {
+    films: false,
+    technology: false,
+    careers: false,
+    more: false,
+  };
+
+  toggleMenu(menu: keyof typeof this.menus, show: boolean) {
+    this.menus[menu] = show;
+  }
 }
