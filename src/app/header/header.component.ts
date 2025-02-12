@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { GLOBALS } from '../app.config';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-header',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css',
 })
