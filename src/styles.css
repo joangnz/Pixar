@@ -1,39 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-header {
-    min-height: 5vh;
-    background-color: aliceblue;
-
-    #logo-holder {
-        margin-left: 20px;
-    }
-
-    #nav-holder {
-        margin-right: 20px;
-    }
-
-    #logo {
-        width: auto;
-        max-width: 100%;
-        max-height: 31px;
-        margin: 40px;
-    }
-
-    #nav {
-        margin: 10px 20px;
-        text-transform: uppercase;
-
-        ul li {
-            margin: 10px 20px;
-            letter-spacing: .23em;
-            font-size: 1.1rem;
-
-            ul {
-                position: absolute;
-            }
-        }
-    }
-}
-
 main {}
 
 footer {}
