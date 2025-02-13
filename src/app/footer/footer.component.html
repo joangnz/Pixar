@@ -2,18 +2,64 @@
     <div id="footer-navs-holder" class="flex gray">
         <nav id="socials">
             <ul class="flex space-evenly no-bullet">
-                <li>Ln</li>
-                <li>Fb</li>
-                <li>X</li>
-                <li>YT</li>
-                <li>IG</li>
+                <li>
+                    <a href="https://www.linkedin.com/company/pixar-animation-studios">
+                        <img src="assets/icons/bxl-linkedin.svg" alt="LinkedIn">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/Pixar/">
+                        <img src="assets/icons/bxl-facebook.svg" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://x.com/pixar">
+                        <img src="assets/icons/bxl-twitter.svg" alt="Twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/pixar">
+                        <img src="assets/icons/bxl-youtube.svg" alt="YouTube">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/pixar/">
+                        <img src="assets/icons/bxl-instagram.svg" alt="Instagram">
+                    </a>
+                </li>
             </ul>
         </nav>
-        <nav id="sites" class="flex justify-evenly">
-            <ul class="no-bullet">Films</ul>
-            <ul class="no-bullet">Tech</ul>
-            <ul class="no-bullet">Careers</ul>
-            <ul class="no-bullet">More</ul>
+        <nav id="sites" class="flex justify-evenly align-top">
+            <ul class="no-bullet">
+                <li class="list-header">Films</li>
+                <li><a [href]="SITE_URL + '/Feature Films'">Feature Films</a></li>
+                <li><a [href]="SITE_URL + '/Short Films'">Short Films</a></li>
+                <li><a [href]="SITE_URL + '/Series'">Series</a></li>
+                <li><a [href]="SITE_URL + '/Sparkshorts'">Sparkshorts</a></li>
+                <li><a [href]="SITE_URL + '/Documentaries'">Documentaries</a></li>
+            </ul>
+            <ul class="no-bullet">
+                <li class="list-header">Tech</li>
+                <li><a [href]="SITE_URL + '/technology'">Technology at Pixar</a></li>
+                <li><a [href]="SITE_URL + '/renderman'">Renderman</a></li>
+                <li><a [href]="SITE_URL + '/openusd'">OpenUSD</a></li>
+                <li><a [href]="SITE_URL + '/software'">Software R&D</a></li>
+                <li><a [href]="SITE_URL + '/libraries'">Technology Libraries</a></li>
+            </ul>
+            <ul class="no-bullet">
+                <li class="list-header">Careers</li>
+                <li><a [href]="SITE_URL + '/careers'">Careers</a></li>
+                <li><a [href]="SITE_URL + '/internships'">Internships</a></li>
+                <li><a [href]="SITE_URL + '/life-pixar'">Life at Pixar</a></li>
+            </ul>
+            <ul class="no-bullet">
+                <li class="list-header">More</li>
+                <li><a [href]="SITE_URL + '/leaders'">Leaders</a></li>
+                <li><a [href]="SITE_URL + '/story'">Our Story</a></li>
+                <li><a [href]="SITE_URL + '/events'">Events</a></li>
+                <li><a [href]="SITE_URL + '/pixar-box'">Pixar in a Box</a></li>
+                <li><a [href]="SITE_URL + '/faqs'">Company FAQ's</a></li>
+            </ul>
         </nav>
     </div>
     <div>

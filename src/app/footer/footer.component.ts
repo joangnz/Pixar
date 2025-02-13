@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { GLOBALS } from '../app.config';
 
 @Component({
   selector: 'app-footer',
@@ -6,4 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.css',
 })
-export class FooterComponent {}
+export class FooterComponent {
+  SITE_URL: string = GLOBALS.SITE_URL;
+}
