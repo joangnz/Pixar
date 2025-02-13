@@ -2,16 +2,21 @@ footer {
     text-align: center;
 
     #footer-navs-holder {
-        padding: 50px;
+        padding: 100px;
     }
 
     #socials {
         width: 30%;
+        margin-left: 150px;
+
+        img {
+            margin: 10px;
+        }
     }
 
     #sites {
         flex-grow: 2;
-
+        margin-right: 150px;
 
         li {
             text-align: left;
@@ -20,5 +25,11 @@ footer {
         a {
             text-decoration: underline;
         }
+    }
+
+    #legal {
+        margin-top: 30px;
+        min-height: 100px;
+        font-size: 0.8rem;
     }
 }
