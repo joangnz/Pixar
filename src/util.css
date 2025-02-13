@@ -42,6 +42,7 @@ body {
 
 /* Class Utility */
 .wf {
+    display: inline-block;
     width: 100%;
 }
 
@@ -50,6 +51,14 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.justify-start {
+    justify-content: flex-start !important;
+}
+
+.justify-end {
+    justify-content: flex-end !important;
 }
 
 .justify-center {
