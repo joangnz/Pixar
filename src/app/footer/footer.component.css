@@ -11,5 +11,14 @@ footer {
 
     #sites {
         flex-grow: 2;
+
+
+        li {
+            text-align: left;
+        }
+
+        a {
+            text-decoration: underline;
+        }
     }
 }

@@ -10,15 +10,15 @@
 
 @font-face {
     font-family: 'Proxima Nova';
-    src: var(--SITE_URL'/assets/fonts/proxima-nova/proximanova_regular.ttf') format('truetype');
+    src: url('assets/fonts/proxima-nova/proximanova_regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Proxima Nova';
-    src: var(--SITE_URL'/assets/fonts/proxima-nova/proximanova_bold.otf') format('opentype'),
-        var(--SITE_URL'/assets/fonts/proxima-nova/proximanova_black.ttf') format('truetype');
+    src: url('assets/fonts/proxima-nova/proximanova_bold.otf') format('opentype'),
+        url('assets/fonts/proxima-nova/proximanova_black.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -87,6 +87,14 @@ body {
 ul.no-bullet {
     padding: 0;
     list-style-type: none;
+}
+
+li.list-header {
+    font-weight: bold;
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
 }
 
 .pointer {
