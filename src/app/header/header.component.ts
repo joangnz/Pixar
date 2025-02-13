@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { GLOBALS } from '../app.config';
 import { CommonModule } from '@angular/common';
-import $ from 'jquery';
 
 @Component({
   selector: 'app-header',
