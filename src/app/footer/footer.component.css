@@ -20,10 +20,13 @@ footer {
 
         li {
             text-align: left;
+            font-size: 1.2rem;
+            line-height: 1.3rem;
         }
 
         a {
             text-decoration: underline;
+            font-size: 1.2rem;
         }
     }
 
