@@ -12,11 +12,11 @@
                 <li id="films" (mouseenter)="activateMenu('films')" (mouseleave)="deactivateMenu('films')">
                     Films
                     <ul [ngClass]="{'hide': !menus.films}" class="no-bullet">
-                        <li><a [href]="SITE_URL + '/Feature Films'">Feature Films</a></li>
-                        <li><a [href]="SITE_URL + '/Short Films'">Short Films</a></li>
-                        <li><a [href]="SITE_URL + '/Series'">Series</a></li>
-                        <li><a [href]="SITE_URL + '/Sparkshorts'">Sparkshorts</a></li>
-                        <li><a [href]="SITE_URL + '/Documentaries'">Documentaries</a></li>
+                        <li><a [href]="SITE_URL + '/features'">Feature Films</a></li>
+                        <li><a [href]="SITE_URL + '/shorts'">Short Films</a></li>
+                        <li><a [href]="SITE_URL + '/series'">Series</a></li>
+                        <li><a [href]="SITE_URL + '/sparkshorts'">Sparkshorts</a></li>
+                        <li><a [href]="SITE_URL + '/documentaries'">Documentaries</a></li>
                     </ul>
                 </li>
                 <li id="technology" (mouseenter)="activateMenu('technology')"
@@ -24,7 +24,7 @@
                     Technology
                     <ul class="no-bullet" [ngClass]="{'hide': !menus.technology}">
                         <li><a [href]="SITE_URL + '/technology'">Technology at Pixar</a></li>
-                        <li><a [href]="SITE_URL + '/renderman'">Renderman</a></li>
+                        <li><a [href]="SITE_URL + '/renderman'">RenderMan</a></li>
                         <li><a [href]="SITE_URL + '/openusd'">OpenUSD</a></li>
                         <li><a [href]="SITE_URL + '/software'">Software R&D</a></li>
                         <li><a [href]="SITE_URL + '/libraries'">Technology Libraries</a></li>
@@ -44,7 +44,7 @@
                         <li><a [href]="SITE_URL + '/leaders'">Leaders</a></li>
                         <li><a [href]="SITE_URL + '/story'">Our Story</a></li>
                         <li><a [href]="SITE_URL + '/events'">Events</a></li>
-                        <li><a [href]="SITE_URL + '/pixar-box'">Pixar in a Box</a></li>
+                        <li><a [href]="SITE_URL + '/pixar-box'">Pixar In A Box</a></li>
                         <li><a [href]="SITE_URL + '/faqs'">Company FAQ's</a></li>
                     </ul>
                 </li>
