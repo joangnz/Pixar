@@ -21,6 +21,7 @@ header {
         text-transform: uppercase;
 
         ul li {
+            z-index: 2;
             margin: 10px 20px;
             letter-spacing: .23em;
             font-size: 1.2rem;
