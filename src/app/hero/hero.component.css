@@ -2,7 +2,6 @@ section {
     text-align: center;
     position: relative;
     height: 660px;
-    background-color: red;
     overflow-y: hidden;
 
     #background {
