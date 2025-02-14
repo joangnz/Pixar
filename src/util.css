@@ -89,6 +89,10 @@ body {
     flex-direction: column !important;
 }
 
+.nowrap {
+    flex-wrap: nowrap !important;
+}
+
 .hide {
     display: none !important;
 }
