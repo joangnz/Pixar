@@ -43,7 +43,11 @@ body {
 /* Class Utility */
 .wf {
     display: inline-block;
-    width: 100%;
+    width: 100% !important;
+}
+
+.hf {
+    height: 100% !important;
 }
 
 .flex {
@@ -85,6 +89,18 @@ body {
     align-items: flex-end !important;
 }
 
+.justify-self-start {
+    justify-self: start !important;
+}
+
+.justify-self-end {
+    justify-self: end !important;
+}
+
+.justify-self-center {
+    justify-self: center !important;
+}
+
 .col {
     flex-direction: column !important;
 }
@@ -95,6 +111,10 @@ body {
 
 .hide {
     display: none !important;
+}
+
+.relative {
+    position: relative !important;
 }
 
 ul.no-bullet {
