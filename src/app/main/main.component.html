@@ -17,30 +17,55 @@
             </div>
         </div>
 
-        <div id="careers" class="row triple-row wf flex justify-between" style="background-color: red;">
+        <div id="careers" class="row triple-row wf flex justify-between">
             <div id="careers-left" class="flex col justify-between">
-                <div class="wf" style="background-color: blue;"></div>
-                <div class="wf" style="background-color: green;"></div>
+                <div class="wf" id="careers-left1">
+                    <a href=""></a>
+                </div>
+                <div class="wf" id="careers-left2"><a href=""></a></div>
             </div>
-            <div id="careers-right">
-                <a class="wf flex col align-start">
-                    <h1>Careers at Pixar</h1>
-                    <p>
-                        At pixar, we are proud of our tradition of creative <br>
-                        and technical excellence and are always looking for <br>
-                        talented people to enrich our work and our community.
-                        <a href="">Learn more</a>
-                    </p>
-                </a>
+            <div id="careers-right" class="flex col align-top justify-evenly">
+                <h1>Careers at Pixar</h1>
+                <p>
+                    At Pixar, we are proud of our tradition of creative <br />
+                    and technical excellence and are always looking for <br />
+                    talented people to enrich our work and our <br />
+                    community. <a href="">Learn more</a>
+                </p>
             </div>
         </div>
 
-        <div class="row double-row wf"></div>
+        <div class="row triple-row wf flex relative" id="elio-holder">
+            <a href="">
+                <img id="elio-hero" [src]="SITE_URL + '/assets/img/elio.png'" alt="" width="600px">
+            </a>
+            <div id="elio-right" class="flex col">
+                <a href="">
+                    <img [src]="SITE_URL + '/assets/img/elio-logo.png'" alt="" height="170px">
+                </a>
+                <h3>IN THEATRES JUNE 20</h3>
+            </div>
+        </div>
 
-        <div class="row double-row wf flex">
-            <div id="dream-prods"></div>
-            <div id="hoppers"></div>
-            <div id="ts5"></div>
+        <div id="other-prods" class="row double-row wf flex justify-between">
+            <div id="dream-prods">
+                <a href="" class="wf hf flex col">
+                    <img [src]="SITE_URL + '/assets/img/dream-title.png'" alt="" width="70%">
+                    <h3>NOW STREAMING</h3>
+                    <img [src]="SITE_URL + '/assets/img/d+.png'" alt="" width="20%" style="filter: invert(100%);">
+                </a>
+            </div>
+            <div id="hoppers">
+                <a href="" class="wf hf flex relative">
+                    <img [src]="SITE_URL + '/assets/img/hoppers-bg.jpg'" alt="" width="100%">
+                    <h3>MARCH 6, 2026</h3>
+                </a>
+            </div>
+            <div id="ts5">
+                <a href="" class="wf hf flex">
+                    <img [src]="SITE_URL + '/assets/img/ts5-title.png'" alt="" height="100%">
+                </a>
+            </div>
         </div>
     </section>
 </main>

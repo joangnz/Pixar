@@ -48,28 +48,117 @@ main {
         height: 100%;
         width: 25%;
 
+        #careers-left1 {
+            background-image: url('../../assets/img/careers-left1.jpg');
+            background-size: cover;
+        }
+
+        #careers-left2 {
+            background-image: url('../../assets/img/careers-left2.jpg');
+            background-size: cover;
+        }
+
         div {
-            height: 140px;
+            height: 165px;
+
+            a {
+                display: block;
+                height: 100%;
+                width: 100%;
+            }
         }
     }
 
     #careers-right {
         height: 100%;
         flex-grow: 2;
+        background-image: url('../../assets/img/careers-right.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        h1,
+        p {
+            color: #fff;
+            margin-left: 50px;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+            margin-bottom: 50px;
+        }
 
         a {
-            height: 100%;
-            align-items: start;
-            gap: 20px;
-
-            h1 {
-                font-size: 3rem;
-            }
-
-            p {
-                font-size: 1.4rem;
-            }
+            text-decoration: underline;
+            color: #fff;
         }
+    }
+}
+
+#elio-holder {
+    background-image: url('../../assets/img/elio-bg.jpg');
+    background-size: cover;
+
+    h3 {
+        cursor: text;
+        color: #fff;
+        letter-spacing: 0.2rem;
+    }
+
+    #elio-hero {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    #elio-right {
+        position: absolute;
+        right: 150px;
+    }
+
+}
+
+#other-prods {
+    gap: 1%;
+
+    div {
+        min-width: 30%;
+        height: 100%;
+    }
+
+    #dream-prods {
+        width: 33%;
+        background-image: url('../../assets/img/dream-bg.jpg');
+        background-size: cover;
+
+        h3 {
+            color: #fff;
+            letter-spacing: 0.2rem;
+            margin: 10px 0;
+        }
+    }
+
+    #hoppers {
+        width: 28%;
+
+        h3 {
+            color: #fff;
+            letter-spacing: 0.2rem;
+            margin-top: -50px;
+        }
+
+        a {
+            background-color: black;
+        }
+    }
+
+    #ts5 {
+        width: 33%;
+        background-image: url('../../assets/img/ts5-bg.jpg');
+        background-size: cover;
     }
 }
 
@@ -79,13 +168,9 @@ main {
 }
 
 .triple-row {
-    height: 300px;
+    height: 350px;
 }
 
 .double-row {
-    height: 200px;
-}
-
-.single-row {
-    height: 100px;
+    height: 250px;
 }
